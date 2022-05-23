@@ -8,13 +8,10 @@ public class Instantiate : MonoBehaviour
     [SerializeField] public GameObject block;
 
 
-    void update()
-    {
+    void Start(){
         System.Console.WriteLine("update called");
-        int i = 0;
-        while (i < nr_of_objects){
-            i++;
-            Vector3 random_spawn_pos = new Vector3(Random.Range(-5f,5f), 5f, Random.Range(-5f, 5f)); 
+        for(int i = 0; i < nr_of_objects; i++){
+            Vector3 random_spawn_pos = new Vector3(Random.Range(-4f,4f), 4f, Random.Range(-4f, 4f)); 
             Instantiate(block, random_spawn_pos, Quaternion.identity);
            
             System.Console.WriteLine("added new object");

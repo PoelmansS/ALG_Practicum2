@@ -121,6 +121,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &314247543 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4965223199158099659, guid: 83b0d750a586e8940b8bddb1d6e608a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 4965223198732363893}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &314247544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314247543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad275d0015e96c4a8868a08f49749d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,7 +437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2d1b959384f0fc43a348d5d074ac15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nr_of_objects: 1000
+  nr_of_objects: 20
   block: {fileID: 2253161767819106027, guid: 67ba7f1448bddc74186c9c5b69d1c485, type: 3}
 --- !u!4 &1296473011
 Transform:
@@ -429,7 +447,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296473009}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 10, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
